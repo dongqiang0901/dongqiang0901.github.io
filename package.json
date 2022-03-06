@@ -1,0 +1,35 @@
+{
+  "name": "dongqiang0901",
+  "version": "1.0.0",
+  "description": "dingqiang的个人主页",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve --config ./config/webpack.dev.js",
+    "build": "webpack --config ./config/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongqiang0901/dongqiang0901.github.io.git"
+  },
+  "keywords": [
+    "dongqiang"
+  ],
+  "author": "dongqiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongqiang0901/dongqiang0901.github.io/issues"
+  },
+  "homepage": "https://github.com/dongqiang0901/dongqiang0901.github.io#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.0",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
