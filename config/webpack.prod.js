@@ -34,7 +34,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
-      minify: true
+      minify: true,
+      title: 'dongqiang的个人主页'
     }),
     // 复制目录到dist下
     new CopyWebpackPlugin({
